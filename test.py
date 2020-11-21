@@ -90,7 +90,6 @@ class TestNode():
 
 def main():
     node = TestNode("test")
-    rospy.logwarn("This code is run")
     node.run()
 
 
